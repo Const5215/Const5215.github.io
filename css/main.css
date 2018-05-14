@@ -1836,7 +1836,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c1ff75;
+  background: #9cf74f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2596,4 +2596,7 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+body {
+  background: url("/images/background.png") no-repeat fixed center;
 }
