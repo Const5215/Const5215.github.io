@@ -108,17 +108,17 @@
 
 
 
-  <meta name="description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by multiset.begin(); while m">
+  <meta name="description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by *multiset.begin(); while">
 <meta property="og:type" content="article">
 <meta property="og:title" content="C++ heap with delete implementation">
 <meta property="og:url" content="http://yoursite.com/2018/05/15/Cpp-heap-with-delete-implementation/index.html">
 <meta property="og:site_name" content="&quot;Hello the cruel world.&quot;">
-<meta property="og:description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by multiset.begin(); while m">
+<meta property="og:description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by *multiset.begin(); while">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-05-15T11:24:42.206Z">
+<meta property="og:updated_time" content="2018-05-16T10:20:59.669Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="C++ heap with delete implementation">
-<meta name="twitter:description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by multiset.begin(); while m">
+<meta name="twitter:description" content="Discovered that C++ multiset can be used to implement a heap with delete operation.Since the elements in multiset will be autimatically sorted, min element can be obtained by *multiset.begin(); while">
 
 
 
@@ -338,12 +338,24 @@
                 
               
 
-              <time title="Created: 2018-05-15 19:16:24 / Modified: 19:24:42" itemprop="dateCreated datePublished" datetime="2018-05-15T19:16:24+08:00">2018-05-15</time>
+              <time title="Created: 2018-05-15 19:16:24" itemprop="dateCreated datePublished" datetime="2018-05-15T19:16:24+08:00">2018-05-15</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-05-16 18:20:59" itemprop="dateModified" datetime="2018-05-16T18:20:59+08:00">2018-05-16</time>
               
             
           </span>
@@ -376,7 +388,9 @@
       
 
       
-        <p>Discovered that C++ multiset can be used to implement a heap with delete operation.<br>Since the elements in multiset will be autimatically sorted, min element can be obtained by <em>multiset.begin(); while max element </em>multiset.rbegin().<br>delete can be written as multiset.erase(multiset.find(element));<br>The better-known container priority_queue do not support certain component delete function so this can be rather helpful in certain situations.<br>Thanks to:<a href="https://leetcode.com/problems/the-skyline-problem/discuss/122460/cool-c++-solution-using-multiset" target="_blank" rel="noopener">https://leetcode.com/problems/the-skyline-problem/discuss/122460/cool-c++-solution-using-multiset</a> </p>
+        <p>Discovered that C++ multiset can be used to implement a heap with delete operation.<br>Since the elements in multiset will be autimatically sorted, min element can be obtained by <code>*multiset.begin();</code> while max element <code>*multiset.rbegin().</code><br>delete can be written as <code>multiset.erase(multiset.find(element));</code></p>
+<p>The better-known container priority_queue do not support certain component delete function so this can be rather helpful in certain situations.</p>
+<p>Thanks to:<a href="https://leetcode.com/problems/the-skyline-problem/discuss/122460/cool-c++-solution-using-multiset" target="_blank" rel="noopener">https://leetcode.com/problems/the-skyline-problem/discuss/122460/cool-c++-solution-using-multiset</a> </p>
 
       
     </div>
@@ -413,6 +427,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/05/16/fixed-multiset-find/" rel="prev" title="fixed multiset find">
+                fixed multiset find <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -481,7 +499,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">4</span>
+                    <span class="site-state-item-count">5</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
